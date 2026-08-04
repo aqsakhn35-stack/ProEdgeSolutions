@@ -18,8 +18,8 @@ Completed the Semantic HTML task and uploaded the files to the Day 2 folder.
 The screenshot below shows the completed Day 2 webpage.
 ## Webpage Screenshots
 
-![Day 2 Screenshot 1](screenshot1.png)
+![Day 2 Screenshot 1](Screenshot1.png)
 
-![Day 2 Screenshot 2](screenshot2.png)
+![Day 2 Screenshot 2](Screenshot2.png)
 
-![Day 2 Screenshot 3](screenshot3.png)
+![Day 2 Screenshot 3](Screenshot3.png)
