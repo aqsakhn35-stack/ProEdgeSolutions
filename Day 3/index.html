@@ -1,1 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portal</title>
+</head>
 
+<body>
+
+    <h1>Student Registration Portal</h1>
+
+    <section>
+        <h2>Student Registration Form</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="full-name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="full-name"
+                        name="full-name"
+                        placeholder="Enter your full name"
+                        minlength="3"
+                        maxlength="50"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        minlength="10"
+                        maxlength="15"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label>
+                    <input
+                        type="date"
+                        id="dob"
+                        name="dob"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label>Gender:</label>
+
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="Male"
+                        required
+                    >
+                    <label for="male">Male</label>
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="Female"
+                    >
+                    <label for="female">Female</label>
+
+                    <input
+                        type="radio"
+                        id="other"
+                        name="gender"
+                        value="Other"
+                    >
+                    <label for="other">Other</label>
+                </p>
+
+                <p>
+                    <label for="city">City:</label>
+                    <select id="city" name="city" required>
+                        <option value="">Select your city</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Haripur">Haripur</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Abbottabad">Abbottabad</option>
+                        <option value="Rawalpindi">Rawalpindi</option>
+                    </select>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Academic Information</legend>
+
+                <p>
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="">Select Department</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Information Technology">Information Technology</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="Software Engineering">Software Engineering</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="registration-number">Registration Number:</label>
+                    <input
+                        type="text"
+                        id="registration-number"
+                        name="registration-number"
+                        placeholder="Enter registration number"
+                        minlength="5"
+                        maxlength="20"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="profile-picture">Profile Picture:</label>
+                    <input
+                        type="file"
+                        id="profile-picture"
+                        name="profile-picture"
+                        accept="image/*"
+                        required
+                    >
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Account Information</legend>
+
+                <p>
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter password"
+                        minlength="8"
+                        maxlength="30"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        placeholder="Confirm your password"
+                        minlength="8"
+                        maxlength="30"
+                        required
+                    >
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Terms and Conditions</legend>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        required
+                    >
+                    <label for="terms">
+                        I agree to the Terms & Conditions.
+                    </label>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Student Information Table</h2>
+
+        <table>
+            <caption>Registered Student Information</caption>
+
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Full Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Semester</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ST001</td>
+                    <td>Ali Khan</td>
+                    <td>Computer Science</td>
+                    <td>ali@example.com</td>
+                    <td>03001234567</td>
+                    <td>5th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST002</td>
+                    <td>Ahmed Shah</td>
+                    <td>Information Technology</td>
+                    <td>ahmed@example.com</td>
+                    <td>03011234567</td>
+                    <td>4th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST003</td>
+                    <td>Fatima Noor</td>
+                    <td>Computer Science</td>
+                    <td>fatima@example.com</td>
+                    <td>03021234567</td>
+                    <td>6th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST004</td>
+                    <td>Usman Ali</td>
+                    <td>Artificial Intelligence</td>
+                    <td>usman@example.com</td>
+                    <td>03031234567</td>
+                    <td>5th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST005</td>
+                    <td>Ayesha Khan</td>
+                    <td>Software Engineering</td>
+                    <td>ayesha@example.com</td>
+                    <td>03041234567</td>
+                    <td>3rd</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST006</td>
+                    <td>Hamza Ahmed</td>
+                    <td>Computer Science</td>
+                    <td>hamza@example.com</td>
+                    <td>03051234567</td>
+                    <td>7th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST007</td>
+                    <td>Sara Malik</td>
+                    <td>Information Technology</td>
+                    <td>sara@example.com</td>
+                    <td>03061234567</td>
+                    <td>4th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST008</td>
+                    <td>Bilal Khan</td>
+                    <td>Artificial Intelligence</td>
+                    <td>bilal@example.com</td>
+                    <td>03071234567</td>
+                    <td>6th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST009</td>
+                    <td>Hira Noor</td>
+                    <td>Computer Science</td>
+                    <td>hira@example.com</td>
+                    <td>03081234567</td>
+                    <td>5th</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr>
+                    <td>ST010</td>
+                    <td>Zain Ahmed</td>
+                    <td>Software Engineering</td>
+                    <td>zain@example.com</td>
+                    <td>03091234567</td>
+                    <td>8th</td>
+                    <td>Active</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+</body>
+</html>
