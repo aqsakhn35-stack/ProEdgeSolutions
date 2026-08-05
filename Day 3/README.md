@@ -20,14 +20,16 @@ Today I created a Student Registration Portal using HTML5.
 
 ### Day 3 Screenshots
 
+### Day 3 Screenshots
+
 #### Screenshot 1
-![Screenshot 1](Day%203/Screenshot1.png)
+![Screenshot 1](Screenshot1.png)
 
 #### Screenshot 2
-![Screenshot 2](Day%203/Screenshot2.png)
+![Screenshot 2](Screenshot2.png)
 
 #### Screenshot 3
-![Screenshot 3](Day%203/Screenshot3.png)
+![Screenshot 3](Screenshot3.png)
 
 #### Screenshot 4
-![Screenshot 4](Day%203/Screenshot4.png)
+![Screenshot 4](Screenshot4.png)
