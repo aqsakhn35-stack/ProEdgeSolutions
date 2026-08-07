@@ -1,0 +1,268 @@
+/* =========================
+   General Styles
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+button,
+a {
+    font-family: inherit;
+}
+
+
+/* =========================
+   Dashboard Header
+========================= */
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 6%;
+    background-color: #1f3c88;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dashboard-header h1 {
+    font-size: 26px;
+}
+
+
+/* =========================
+   Navigation Bar
+========================= */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: #1f3c88;
+}
+
+
+/* =========================
+   Main Container
+========================= */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+
+/* =========================
+   Statistics Cards
+========================= */
+
+.statistics-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 200px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.stat-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* =========================
+   Quick Actions
+========================= */
+
+.quick-actions {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 35px;
+}
+
+.quick-actions h2,
+.students-section h2 {
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button-group button,
+.student-card button {
+    border: none;
+    padding: 10px 18px;
+    border-radius: 7px;
+    background-color: #1f3c88;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-group button:hover,
+.student-card button:hover {
+    background-color: #14275c;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Student Cards - CSS Grid
+========================= */
+
+.students-section {
+    margin-bottom: 40px;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 22px;
+    place-items: stretch;
+}
+
+.student-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.student-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.student-card h3 {
+    margin-bottom: 10px;
+}
+
+.student-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.student-card button {
+    margin-top: 12px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f3c88;
+    color: white;
+}
+
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 900px) {
+
+    .student-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .dashboard-header {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .student-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .statistics-section {
+        flex-direction: column;
+    }
+
+    .dashboard-header h1 {
+        font-size: 22px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+}
