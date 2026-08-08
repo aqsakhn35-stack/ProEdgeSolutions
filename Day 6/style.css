@@ -1,0 +1,450 @@
+/* ========================================
+   DAY 6 - RESPONSIVE STUDENT DASHBOARD
+   Responsive Web Design
+======================================== */
+
+
+/* ========================================
+   General Styles
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+    min-width: 320px;
+}
+
+button,
+a {
+    font-family: inherit;
+}
+
+
+/* ========================================
+   Dashboard Header
+======================================== */
+
+.dashboard-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 5%;
+    background-color: #1f3c88;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.dashboard-header h1 {
+    font-size: 1.6rem;
+}
+
+
+/* ========================================
+   Navigation Bar
+======================================== */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.4rem;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: #1f3c88;
+}
+
+
+/* ========================================
+   Main Container
+======================================== */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2.2rem auto;
+}
+
+
+/* ========================================
+   Statistics Cards
+======================================== */
+
+.statistics-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.2rem;
+}
+
+.stat-card {
+    flex: 1 1 200px;
+    min-width: 0;
+    max-width: 100%;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+/* ========================================
+   Quick Actions
+======================================== */
+
+.quick-actions {
+    width: 100%;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2.2rem;
+}
+
+.quick-actions h2,
+.students-section h2 {
+    margin-bottom: 1.25rem;
+}
+
+.button-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.button-group button,
+.student-card button {
+    border: none;
+    padding: 0.65rem 1.1rem;
+    border-radius: 0.45rem;
+    background-color: #1f3c88;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-group button:hover,
+.student-card button:hover {
+    background-color: #14275c;
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   Student Cards
+======================================== */
+
+.students-section {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.student-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.4rem;
+}
+
+.student-card {
+    width: 100%;
+    min-width: 0;
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ========================================
+   Responsive Images
+======================================== */
+
+.student-card img {
+    display: block;
+    width: min(90px, 35vw);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    max-width: 100%;
+    margin: 0 auto 0.75rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.student-card h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1.15rem;
+}
+
+.student-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.3rem;
+    overflow-wrap: break-word;
+}
+
+.student-card button {
+    margin-top: 0.75rem;
+    max-width: 100%;
+}
+
+
+/* ========================================
+   Footer
+======================================== */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1.25rem 5%;
+    background-color: #1f3c88;
+    color: white;
+}
+
+.footer p {
+    font-size: 0.95rem;
+}
+
+
+/* ========================================
+   MOBILE - 576px
+======================================== */
+
+@media (max-width: 576px) {
+
+    .dashboard-header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 4%;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .dashboard-header h1 {
+        font-size: 1.4rem;
+    }
+
+    .navigation {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+
+    .navigation a {
+        width: 100%;
+        text-align: center;
+        padding: 0.6rem;
+    }
+
+    main {
+        width: 92%;
+        margin: 1.5rem auto;
+    }
+
+    .statistics-section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .stat-card {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .stat-card h2 {
+        font-size: 1.7rem;
+    }
+
+    .quick-actions {
+        padding: 1rem;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button-group button {
+        width: 100%;
+    }
+
+    .student-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .student-card {
+        padding: 1rem;
+    }
+
+    .student-card button {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 1rem 4%;
+    }
+
+    .footer p {
+        font-size: 0.85rem;
+    }
+}
+
+
+/* ========================================
+   TABLET - 768px
+======================================== */
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .dashboard-header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .dashboard-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .statistics-section {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .stat-card {
+        width: 100%;
+    }
+
+    .student-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .button-group {
+        justify-content: center;
+    }
+}
+
+
+/* ========================================
+   LAPTOP - 992px
+======================================== */
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .dashboard-header {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .statistics-section {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.2rem;
+    }
+
+    .student-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+    }
+}
+
+
+/* ========================================
+   DESKTOP - 1200px
+======================================== */
+
+@media (min-width: 1200px) {
+
+    main {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .dashboard-header {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .student-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .stat-card {
+        padding: 1.6rem;
+    }
+}
