@@ -1,1 +1,53 @@
+# Day 6 – Responsive Web Design
 
+## Project Description
+
+This project demonstrates a responsive web page designed using HTML and CSS. The webpage is optimized for different screen sizes, including desktop, tablet, and mobile devices.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Responsive Web Design
+- Media Queries
+
+## Responsive Screenshots
+
+### Desktop View
+
+![Desktop View 1](desktop1.png)
+
+![Desktop View 2](desktop2.png)
+
+### Tablet View
+
+![Tablet View 1](tablet1.png)
+
+![Tablet View 2](tablet2.png)
+
+### Mobile View
+
+![Mobile View 1](mobile1.png)
+
+![Mobile View 2](mobile2.png)
+
+![Mobile View 3](mobile3.png)
+
+![Mobile View 4](mobile4.png)
+
+## Live Demo
+
+[View Live Demo](https://aqsakhn35-stack.github.io/ProEdgeSolutions/Day%206/)
+
+## Project Files
+
+- `index.html` – Main HTML structure
+- `style.css` – Styling and responsive design
+- `desktop1.png` – Desktop screenshot
+- `desktop2.png` – Desktop screenshot
+- `tablet1.png` – Tablet screenshot
+- `tablet2.png` – Tablet screenshot
+- `mobile1.png` – Mobile screenshot
+- `mobile2.png` – Mobile screenshot
+- `mobile3.png` – Mobile screenshot
+- `mobile4.png` – Mobile screenshot
