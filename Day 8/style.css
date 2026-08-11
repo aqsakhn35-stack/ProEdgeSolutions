@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f0fa, #e8dff2);
+    min-height: 100vh;
+    padding: 40px 15px;
+    color: #2d2438;
+}
+
+/* Main Calculator Card */
+.container {
+    max-width: 620px;
+    margin: auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(72, 45, 90, 0.15);
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5b2c6f;
+    font-size: 30px;
+}
+
+/* Section Headings */
+h2 {
+    margin: 25px 0 18px;
+    color: #6c3483;
+    font-size: 21px;
+}
+
+/* Input Section */
+.input-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #49354f;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d8c9df;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #fcfaff;
+    color: #2d2438;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8e44ad;
+    box-shadow: 0 0 0 3px rgba(142, 68, 173, 0.1);
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+button {
+    flex: 1;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Calculate Button */
+button[type="submit"] {
+    background: #6c3483;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #5b2c6f;
+}
+
+/* Reset Button */
+#resetButton {
+    background: #eee5f3;
+    color: #6c3483;
+}
+
+#resetButton:hover {
+    background: #e2d4e9;
+}
+
+/* Error Message */
+#errorMessage {
+    color: #c0392b;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Result Section */
+.result {
+    margin-top: 30px;
+    padding: 22px;
+    background: #faf7fc;
+    border: 1px solid #e5d8eb;
+    border-left: 5px solid #8e44ad;
+    border-radius: 10px;
+    display: none;
+}
+
+.result h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #6c3483;
+}
+
+.result p {
+    margin: 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee5f3;
+}
+
+.result p:last-child {
+    border-bottom: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .container {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
