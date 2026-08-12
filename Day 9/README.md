@@ -35,20 +35,16 @@ Technologies Used
 - CSS3
 - JavaScript
 
-Screenshots
+## Screenshots
 
-Starting Game
+### Starting Game
+![Starting Game](screenshot/starting%20game.PNG)
 
-"Starting Game" (screenshot/starting%20game.PNG)
+### Too High
+![Too High](screenshot/To%20high.PNG)
 
-Too High
+### Too Low
+![Too Low](screenshot/To%20low.PNG)
 
-"Too High" (screenshot/To%20high.PNG)
-
-Too Low
-
-"Too Low" (screenshot/To%20low.PNG)
-
-Correct Guess
-
-"Correct Guess" (screenshot/correct%20guess.PNG)
+### Correct Guess
+![Correct Guess](screenshot/correct%20guess.PNG)
