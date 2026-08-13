@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+        <p>Manage student records using JavaScript Arrays and Objects</p>
+    </header>
+
+    <main>
+
+        <!-- Student Registration Section -->
+        <section class="registration-section">
+            <h2>Student Registration</h2>
+
+            <form id="studentForm">
+
+                <div class="form-group">
+                    <label for="studentName">Student Name</label>
+                    <input type="text" id="studentName" placeholder="Enter student name">
+                </div>
+
+                <div class="form-group">
+                    <label for="studentId">Student ID</label>
+                    <input type="text" id="studentId" placeholder="Enter student ID">
+                </div>
+
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <input type="text" id="department" placeholder="Enter department">
+                </div>
+
+                <div class="form-group">
+                    <label for="semester">Semester</label>
+                    <input type="number" id="semester" placeholder="Enter semester" min="1" max="12">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact">Contact Number</label>
+                    <input type="tel" id="contact" placeholder="Enter contact number">
+                </div>
+
+                <p id="errorMessage"></p>
+
+                <button type="submit">Add Student</button>
+
+            </form>
+        </section>
+
+
+        <!-- Student Records Section -->
+        <section class="records-section">
+
+            <div class="records-header">
+                <h2>Student Records</h2>
+
+                <div class="student-count">
+                    Total Students:
+                    <span id="studentCount">0</span>
+                </div>
+            </div>
+
+            <div class="table-container">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Student Name</th>
+                            <th>Student ID</th>
+                            <th>Department</th>
+                            <th>Semester</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="studentTableBody">
+                        <!-- Student records will appear here -->
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p id="noRecords">No student records available.</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Management System | JavaScript Arrays & Objects</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
