@@ -82,6 +82,8 @@ Day 10/
 
 ### Duplicate Student ID Validation
 ![Duplicate Student ID](screenshots/duplicate%20result.png)
+
+
 Conclusion
 
 This project demonstrates the practical use of JavaScript arrays and objects for managing student records. It also provides experience with loops, functions, DOM manipulation, event handling, form validation, and dynamic rendering.
