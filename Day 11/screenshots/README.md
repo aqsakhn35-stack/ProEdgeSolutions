@@ -31,20 +31,22 @@ DOM Concepts Used
 - Event listeners
 - Conditional statements
 - Dynamic style updates
-Screenshots
+
+
 ## Screenshots
 
 ### Starting Screen
-![Starting Screen](screenshots/screenshot1.png)
+![Starting Screen](starting.png)
 
 ### Increment Test
-![Increment Test](screenshots/screenshot2.png)
+![Increment Test](increment%20testin.png)
 
 ### Decrement Test
-![Decrement Test](screenshots/screenshot3.png)
+![Decrement Test](decrement%20testig.png)
 
 ### Counter Reset
-![Counter Reset](screenshots/screenshot4.png)
+![Counter Reset](counter%20reset.png)
+
 
 
 Conclusion
