@@ -32,22 +32,19 @@ DOM Concepts Used
 - Conditional statements
 - Dynamic style updates
 Screenshots
+## Screenshots
 
-Starting Screen
+### Starting Screen
+![Starting Screen](screenshots/screenshot1.png)
 
-"Starting Screen" (screenshots/starting.png)
+### Increment Test
+![Increment Test](screenshots/screenshot2.png)
 
-Increment Testing
+### Decrement Test
+![Decrement Test](screenshots/screenshot3.png)
 
-"Increment Testing" (screenshots/increment testin.png)
-
-Decrement Testing
-
-"Decrement Testing" (screenshots/decrement testig.png)
-
-Counter Reset
-
-"Counter Reset" (screenshots/counter reset.png)
+### Counter Reset
+![Counter Reset](screenshots/screenshot4.png)
 
 
 Conclusion
