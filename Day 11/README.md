@@ -32,24 +32,23 @@ DOM Concepts Used
 - Conditional statements
 - Dynamic style updates
 
-Screenshots
+## Screenshots
 
-Starting Screen
+### Starting Screen
 
-"Starting Screen" (./screenshots/starting.png)
+![Starting Screen](./screenshots/starting.png)
 
-Increment Test
+### Increment Test
 
-"Increment Test" (./screenshots/increment%20testin.png)
+![Increment Test](./screenshots/increment%20testin.png)
 
-Decrement Test
+### Decrement Test
 
-"Decrement Test" (./screenshots/decrement%20testig.png)
+![Decrement Test](./screenshots/decrement%20testig.png)
 
-Counter Reset
+### Counter Reset
 
-"Counter Reset" (./screenshots/counter%20reset.png)
-
+![Counter Reset](./screenshots/counter%20reset.png)
 Conclusion
 
 The Interactive Counter Application successfully demonstrates DOM manipulation, event handling, dynamic content updates, and user interaction using JavaScript.
