@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <div class="counter-container">
+        <h1>Interactive Counter</h1>
+
+        <div id="counterValue">0</div>
+
+        <p id="status">Counter is zero</p>
+
+        <div class="buttons">
+            <button id="incrementBtn">Increment</button>
+            <button id="decrementBtn">Decrement</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        let counter = 0;
+
+        const counterValue = document.getElementById("counterValue");
+        const status = document.getElementById("status");
+        const message = document.getElementById("message");
+
+        const incrementBtn = document.getElementById("incrementBtn");
+        const decrementBtn = document.getElementById("decrementBtn");
+        const resetBtn = document.getElementById("resetBtn");
+
+        function updateCounter() {
+            counterValue.textContent = counter;
+
+            if (counter > 0) {
+                status.textContent = "Counter is positive";
+                counterValue.style.color = "green";
+            } 
+            else if (counter < 0) {
+                status.textContent = "Counter is negative";
+                counterValue.style.color = "red";
+            } 
+            else {
+                status.textContent = "Counter is zero";
+                counterValue.style.color = "black";
+            }
+        }
+
+        incrementBtn.addEventListener("click", function() {
+            counter++;
+            message.textContent = "Counter increased by 1";
+            updateCounter();
+        });
+
+        decrementBtn.addEventListener("click", function() {
+            counter--;
+            message.textContent = "Counter decreased by 1";
+            updateCounter();
+        });
+
+        resetBtn.addEventListener("click", function() {
+            counter = 0;
+            message.textContent = "Counter reset successfully";
+            updateCounter();
+        });
+
+        updateCounter();
+    </script>
+
+</body>
+</html>

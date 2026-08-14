@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container {
+    background: white;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+#counterValue {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#status {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#incrementBtn {
+    background: green;
+    color: white;
+}
+
+#decrementBtn {
+    background: crimson;
+    color: white;
+}
+
+#resetBtn {
+    background: #555;
+    color: white;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 15px;
+}
