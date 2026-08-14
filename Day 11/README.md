@@ -49,6 +49,8 @@ DOM Concepts Used
 ### Counter Reset
 
 ![Counter Reset](./screenshots/counter%20reset.png)
+
+
 Conclusion
 
 The Interactive Counter Application successfully demonstrates DOM manipulation, event handling, dynamic content updates, and user interaction using JavaScript.
