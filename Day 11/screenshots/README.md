@@ -32,7 +32,6 @@ DOM Concepts Used
 - Conditional statements
 - Dynamic style updates
 
-
 ## Screenshots
 
 ### Starting Screen
@@ -46,7 +45,6 @@ DOM Concepts Used
 
 ### Counter Reset
 ![Counter Reset](counter%20reset.png)
-
 
 
 Conclusion
