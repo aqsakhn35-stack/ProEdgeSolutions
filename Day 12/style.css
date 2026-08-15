@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f1ed, #e8ddd4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+}
+
+form {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #5a1f1f;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #5a1f1f;
+}
+
+input.invalid {
+    border-color: #d93025;
+    background-color: #fff5f5;
+}
+
+input.valid {
+    border-color: #188038;
+    background-color: #f3fff5;
+}
+
+.error-message {
+    display: block;
+    color: #d93025;
+    font-size: 13px;
+    margin-top: 6px;
+    min-height: 18px;
+}
+
+.success-message {
+    color: #188038;
+    background-color: #f0fff4;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: none;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#loginButton {
+    background-color: #5a1f1f;
+    color: white;
+}
+
+#loginButton:hover {
+    background-color: #401515;
+}
+
+#resetButton {
+    background-color: #ddd;
+    color: #333;
+}
+
+#resetButton:hover {
+    background-color: #c8c8c8;
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 25px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+}
