@@ -86,6 +86,8 @@ Day 12/
 ### Reset Functionality
 
 ![Reset Functionality](screenshots/reset.png)
+
+
 Learning Outcomes
 
 Through this project, I practiced:
