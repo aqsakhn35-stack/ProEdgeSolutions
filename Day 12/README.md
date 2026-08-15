@@ -61,33 +61,31 @@ Day 12/
 ├── script.js
 └── README.md
 
-Screenshots
+## Screenshots
 
-Starting Login Form
+### Starting Login Form
 
-"Starting Login Form" (screenshots/starting.png)
+![Starting Login Form](screenshots/starting.png)
 
-Empty Fields Validation
+### Empty Fields Validation
 
-"Empty Fields Validation" (screenshots/empty-fields.png)
+![Empty Fields Validation](screenshots/empty%20fields.png)
 
-Wrong Email Validation
+### Wrong Email Validation
 
-"Wrong Email Validation" (screenshots/wrong-email.png)
+![Wrong Email Validation](screenshots/wrong%20email.png)
 
-Short Password Validation
+### Short Password Validation
 
-"Short Password Validation" (screenshots/short-password.png)
+![Short Password Validation](screenshots/short%20password.png)
 
-Correct Details
+### Correct Details
 
-"Correct Details" (screenshots/correct-details.png)
+![Correct Details](screenshots/correct%20details.png)
 
-Reset Functionality
+### Reset Functionality
 
-"Reset Functionality" (screenshots/reset.png)
-
-
+![Reset Functionality](screenshots/reset.png)
 Learning Outcomes
 
 Through this project, I practiced:
