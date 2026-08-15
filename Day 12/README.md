@@ -69,23 +69,24 @@ Starting Login Form
 
 Empty Fields Validation
 
-"Empty Fields Validation" (screenshots/empty%20fields.png)
+"Empty Fields Validation" (screenshots/empty-fields.png)
 
 Wrong Email Validation
 
-"Wrong Email Validation" (screenshots/wrong%20email.png)
+"Wrong Email Validation" (screenshots/wrong-email.png)
 
 Short Password Validation
 
-"Short Password Validation" (screenshots/short%20password.png)
+"Short Password Validation" (screenshots/short-password.png)
 
 Correct Details
 
-"Correct Details" (screenshots/correct%20details.png)
+"Correct Details" (screenshots/correct-details.png)
 
 Reset Functionality
 
 "Reset Functionality" (screenshots/reset.png)
+
 
 Learning Outcomes
 
