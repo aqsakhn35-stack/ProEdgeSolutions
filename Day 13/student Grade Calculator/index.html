@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <main class="container">
+        <section class="grade-card">
+
+            <h1>Student Grade Calculator</h1>
+            <p class="subtitle">Calculate your percentage and grade</p>
+
+            <div class="input-group">
+                <label for="studentName">Student Name</label>
+                <input
+                    type="text"
+                    id="studentName"
+                    placeholder="Enter student name"
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="marks">Obtained Marks</label>
+                <input
+                    type="number"
+                    id="marks"
+                    placeholder="Enter obtained marks"
+                    min="0"
+                    max="100"
+                >
+            </div>
+
+            <button id="calculateBtn">Calculate Grade</button>
+
+            <div id="result" class="result-box">
+                Enter your details to calculate the grade.
+            </div>
+
+            <button id="clearBtn" class="clear-btn">
+                Clear
+            </button>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
