@@ -32,6 +32,7 @@ The project includes input validation and error handling to ensure that valid ma
 - `screenshots/` – Project screenshots
 - `README.md` – Project documentation
 
+
 ## Screenshots
 
 ### Student Grade Result
@@ -40,7 +41,7 @@ The project includes input validation and error handling to ensure that valid ma
 
 ### Student Grade Validation Error
 
-![Student Grade Validation Error](screenshots/Student%20grade%20validation%20error.png)
+![Student Grade Validation Error](screenshots/student%20grade%20validation%20error.png)
 
 ## ES6 and Refactoring
 
