@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f0f2, #e8dfe3);
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.game-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #6b1e32;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #6b1e32;
+}
+
+#guessBtn,
+.reset-btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#guessBtn {
+    background: #6b1e32;
+    color: white;
+}
+
+.reset-btn {
+    margin-top: 15px;
+    background: #333;
+    color: white;
+}
+
+.message {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f7f3f5;
+    line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+    .game-card {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
