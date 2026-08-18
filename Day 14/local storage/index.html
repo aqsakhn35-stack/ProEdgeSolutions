@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes App | Local Storage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <div class="app-container">
+    <header class="app-header">
+      <h1>📝 My Notes</h1>
+      <p class="subtitle">All your notes, saved right in your browser</p>
+    </header>
+
+    <section class="input-section">
+      <textarea
+        id="noteInput"
+        placeholder="Write a new note here..."
+        rows="3"
+      ></textarea>
+      <button id="addNoteBtn">+ Add Note</button>
+      <p id="errorMsg" class="error-msg"></p>
+    </section>
+
+    <section class="notes-section">
+      <div id="notesContainer" class="notes-container"></div>
+      <p id="emptyState" class="empty-state">No notes yet. Add your first note above!</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
