@@ -1,13 +1,17 @@
-Day 11 – Interactive Counter Application
+# Day 11 – Interactive Counter Application
 
-Project Description
+## 📌 Description
+An Interactive Counter Application developed using HTML, CSS, and JavaScript.
+The application demonstrates DOM manipulation and user interaction through
+Increment, Decrement, and Reset buttons. The counter value and status message
+update dynamically without refreshing the page.
 
-This project is an Interactive Counter Application developed using HTML, CSS, and JavaScript.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
 
-The application demonstrates DOM manipulation and user interaction through Increment, Decrement, and Reset buttons. The counter value and status message update dynamically without refreshing the page.
-
-Features
-
+## ✨ Features
 - Increment counter value by 1
 - Decrement counter value by 1
 - Reset counter value to 0
@@ -17,40 +21,52 @@ Features
 - Display messages based on user actions
 - Uses JavaScript DOM manipulation and event listeners
 
-Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
-DOM Concepts Used
-
-- "document.getElementById()"
+## 💡 DOM Concepts Used
+- `document.getElementById()`
 - DOM manipulation
-- "textContent"
+- `textContent`
 - Event listeners
 - Conditional statements
 - Dynamic style updates
 
-## Screenshots
+## 📸 Screenshots
 
 ### Starting Screen
 
+
 ![Starting Screen](./screenshots/starting.png)
+
+
 
 ### Increment Test
 
+
 ![Increment Test](./screenshots/increment%20testin.png)
+
+
 
 ### Decrement Test
 
+
 ![Decrement Test](./screenshots/decrement%20testig.png)
 
+
+
 ### Counter Reset
+
 
 ![Counter Reset](./screenshots/counter%20reset.png)
 
 
-Conclusion
 
-The Interactive Counter Application successfully demonstrates DOM manipulation, event handling, dynamic content updates, and user interaction using JavaScript.
+## 📝 Conclusion
+The Interactive Counter Application successfully demonstrates DOM
+manipulation, event handling, dynamic content updates, and user interaction
+using JavaScript.
+
+## 🚀 How to Run
+1. Clone the repo: `git clone <repo-url>`
+2. Open `index.html` in your browser.
+
+## 👤 Author
+Aqsa Islam – Frontend Development Intern @ Pro Edge Solutions
