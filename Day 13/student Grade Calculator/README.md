@@ -1,3 +1,5 @@
+
+
 # Student Grade Calculator
 
 ## Project Description
@@ -26,27 +28,45 @@ The project includes input validation and error handling to ensure that valid ma
 
 ## Project Structure
 
-- `index.html` – Student Grade Calculator structure
-- `style.css` – Styling and layout
-- `script.js` – Calculation and validation functionality
-- `screenshots/` – Project screenshots
-- `README.md` – Project documentation
-
+```
+├── index.html          # Student Grade Calculator structure
+├── style.css           # Styling and layout
+├── script.js           # Calculation and validation functionality
+├── screenshots/         # Project screenshots
+└── README.md           # Project documentation
+```
 
 ## Screenshots
 
 ### Student Grade Result
-
 ![Student Grade Result](screenshots/student%20grade%20result.png)
 
 ### Student Grade Validation Error
-
 ![Student Grade Validation Error](screenshots/student%20grade%20validation%20error.png)
 
 ## ES6 and Refactoring
 
 The JavaScript code has been refactored using modern ES6 features to improve code readability, organization, reusability, and maintainability.
 
-## Conclusion
+## Git Workflow
 
-The Student Grade Calculator demonstrates JavaScript calculations, input validation, error handling, ES6 features, and code refactoring.
+This repository follows standard Git branching and commit conventions used in professional development teams:
+
+**Branch Naming**
+- `feature/<name>` — for new features (e.g. `feature/grade-calculation`)
+- `bugfix/<name>` — for bug fixes (e.g. `bugfix/percentage-rounding`)
+- `docs/<name>` — for documentation updates (e.g. `docs/readme-update`)
+
+**Commit Conventions**
+This project follows [Conventional Commits](https://www.conventionalcommits.org):
+- `feat:` — a new feature (e.g. `feat: add grade calculation logic`)
+- `fix:` — a bug fix (e.g. `fix: correct percentage calculation`)
+- `docs:` — documentation changes (e.g. `docs: update project structure`)
+
+**Merge Process**
+- Work is done on feature/bug-fix branches, never directly on `main`.
+- Changes are submitted via pull requests and reviewed before merging.
+- Merge conflicts, when they occur, are resolved carefully to ensure all changes are preserved and application functionality remains intact.
+
+## Conclusion
+The Student Grade Calculator demonstrates JavaScript logic, input validation, error handling, ES6 features, code refactoring, and professional Git/GitHub workflow practices.
