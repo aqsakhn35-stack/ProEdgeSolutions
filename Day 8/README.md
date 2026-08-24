@@ -1,13 +1,17 @@
-# Student Grade Calculator
+# Day 8 – Student Grade Calculator
 
-## Project Description
+## 📌 Description
+The Student Grade Calculator is a simple web application developed using
+HTML, CSS, and JavaScript. It allows users to enter student information and
+marks for five subjects, and calculates total marks, percentage, grade, and
+pass/fail status.
 
-The Student Grade Calculator is a simple web application developed using HTML, CSS, and JavaScript.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
 
-It allows users to enter student information and marks for five subjects. The application calculates total marks, percentage, grade, and pass/fail status.
-
-## Features
-
+## ✨ Features
 - Student Name input
 - Roll Number input
 - Marks input for five subjects
@@ -20,51 +24,25 @@ It allows users to enter student information and marks for five subjects. The ap
 - Reset button
 - Professional and user-friendly interface
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
-## JavaScript Concepts Used
-
+## 💡 JavaScript Concepts Used
 - Variables
 - Data Types
 - Arithmetic Operators
 - Comparison Operators
 - Logical Operators
-- if statement
-- if...else statement
-- else if statement
-- for loop
+- `if` statement
+- `if...else` statement
+- `else if` statement
+- `for` loop
 - Form validation
 
-## Validation
+## ✅ Validation
+- Student name and roll number cannot be empty
+- Marks for all subjects are required
+- Marks must be between 0 and 100
+- Appropriate error messages are displayed for invalid input
 
-The application includes input validation:
-
-- Student name and roll number cannot be empty.
-- Marks for all subjects are required.
-- Marks must be between 0 and 100.
-- Appropriate error messages are displayed for invalid input.
-
-## Screenshots
-
-### Student Data Entry
-
-![Student Data Entry](screenshots/student%20data%20enter.PNG)
-
-### Student Grade Result
-
-![Student Grade Result](screenshots/student%20grade%20result.PNG)
-
-### Validation Error
-
-![Validation Error](screenshots/validation%20error.PNG)
-
-## Project Structure
-
-```text
+## 📂 Project Structure
 Day 8/
 ├── assets/
 ├── screenshots/
@@ -74,4 +52,32 @@ Day 8/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+## 📸 Screenshots
+
+### Student Data Entry
+
+
+![Student Data Entry](screenshots/student%20data%20enter.PNG)
+
+
+
+### Student Grade Result
+
+
+![Student Grade Result](screenshots/student%20grade%20result.PNG)
+
+
+
+### Validation Error
+
+
+![Validation Error](screenshots/validation%20error.PNG)
+
+
+
+## 🚀 How to Run
+1. Clone the repo: `git clone <repo-url>`
+2. Open `index.html` in your browser.
+
+## 👤 Author
+Aqsa Islam – Frontend Development Intern @ Pro Edge Solutions
